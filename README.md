@@ -84,7 +84,3 @@ To modify or enhance the extension:
 1. Edit the relevant files (`popup.js`, `content.js`, etc.)
 2. Reload the extension in `chrome://extensions/`
 3. Test your changes on various video platforms
-
-## License
-
-This project is open source and available under the MIT License.
