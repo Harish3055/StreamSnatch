@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "StreamSnatch",
+  "version": "1.0",
+  "description": "Download videos from web pages with ease",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "StreamSnatch"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icons/logo.png",
+    "48": "icons/logo.png",
+    "128": "icons/logo.png"
+  }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamSnatch</title>
+    <link rel="stylesheet" href="style/popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="icon">
+                <img src="icons/logo.png" alt="StreamSnatch" width="32" height="32" style="max-width:32px;max-height:32px;">
+            </div>
+            <h1>StreamSnatch</h1>
+        </div>
+        
+        <div class="description">
+            <p>Capture and download videos from the current page</p>
+        </div>
+        
+        <div class="controls">
+            <button id="extBtn" class="btn btn-start">
+                <span class="btn-icon">▶️</span>
+                Start Recording
+            </button>
+            
+            <button id="stopBtn" class="btn btn-stop" disabled>
+                <span class="btn-icon">⏹️</span>
+                Stop & Download
+            </button>
+        </div>
+        
+        <div class="status">
+            <div id="statusText" class="status-text">Ready to record</div>
+        </div>
+        
+        <div class="footer">
+            <p class="hint">Click "Start Recording" to begin capturing video content</p>
+        </div>
+    </div>
+    
+    <script src="src/popup.js"></script>
+</body>
+</html>
